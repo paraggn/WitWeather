@@ -13,7 +13,7 @@ try {
 
 const accessToken = (() => {
   if (process.argv.length !== 3) {
-    console.log('usage: node examples/quickstart.js <wit-access-token>');
+    console.log('usage: node examples/quickstart.js QN7FDII3XRH6P3KYPQ5JCD3YMSDDDWL2');
     process.exit(1);
   }
   return process.argv[2];
